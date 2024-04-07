@@ -5,7 +5,7 @@
 ## Features
 - **Indexing:** This feature allows users to specify a file path within their storage accessible to the Python code. The application then indexes data into a PostgreSQL database.
   
-- **Natural Language Query:** Users can ask questions in plain English and utilize OpenAI to search the indexed results. The application returns answers in a chat format.
+- **Natural Language Query:** Users can ask questions in plain English and the tembo stack will utilize OpenAI to search the indexed results. The application returns answers in a chat format.
   
 - **OpenAI Configuration:** Users have the flexibility to configure OpenAI to either specialize in their documents only or leverage its expertise in a specific field. For instance, if configuring the application for thousands of Python files, users can request OpenAI to become an expert on the Python programming language.
 
