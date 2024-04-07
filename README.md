@@ -26,7 +26,7 @@ To set up the Tembo stack, follow these steps:
     'Context information is below.\n---------------------\n{{ context_str }}\n---------------------\nGiven the Tembo documentation information and your expert Postgres knowledge, answer the question.\n Question: {{ query_str }}\nAnswer:');
     ```
 
-    Replace `<your_api_key>` with your actual API key. You should tailer your sys_prompt and user_prompt according to your needs.
+    Replace `<your_api_key>` with your actual API key. You should tailor sys_prompt and user_prompt according to your needs.
 3. For additional details and configurations, refer to the [Tembo RAG Documentation](https://tembo.io/docs/product/stacks/ai/rag).
 
 ## Python Code Download and Installation
