@@ -3,11 +3,11 @@
 **TemboRAGCrud** is a Python application developed to streamline the process of creating APIs for indexing and searching within the Tembo RAG stack environment.
 
 ## Features
-- **Indexing:** This feature allows users to specify a file path within their storage accessible to the Python code. The application then indexes data into a PostgreSQL database.
+- **Indexing:** This feature allows users to specify a file path within their storage accessible to the Python code. The application then indexes data into a PostgreSQL database(pgvector).
   
 - **Natural Language Query:** Users can ask questions in plain English and the tembo stack will utilize OpenAI to search the indexed results. The application returns answers in a chat format.
   
-- **OpenAI Configuration:** Users have the flexibility to configure OpenAI to either specialize in their documents only or leverage its expertise in a specific field. For instance, if configuring the application for thousands of Python files, users can request OpenAI to become an expert on the Python programming language.
+- **OpenAI Configuration:** Users have the flexibility to configure OpenAI to either specialize in the data present in their database and also  leverage its expertise in a specific field. For instance, if configuring the application for thousands of Python files, users can request OpenAI to become an expert on the Python programming language.
 
 
 
