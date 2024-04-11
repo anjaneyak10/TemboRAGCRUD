@@ -1,4 +1,4 @@
-# Tembo RAG 
+# Tembo RAG CRUD
 
 **TemboRAGCrud** is a Python application developed to streamline the process of creating APIs for indexing and searching within the Tembo RAG stack environment.
 
